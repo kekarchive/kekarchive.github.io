@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!-- saved from url=(0061)http://rateyourmusic.com/go/search2?type=shortcutartist&func= -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="jquery.min(1).js"></script>
+   <script type="text/javascript">
+     if(parent.document.getElementById('dropheader')) parent.document.getElementById('dropheader').innerHTML = 'Search Results';
+ 
+     function navArtist( artist_id ) 
+     {
+        window.location='/go/artist?id=' + artist_id  ;
+     } 
+   </script>
+   <style type="text/css">
+
+
+    body { background: #fff; width: 310px; padding:0; margin:0; font-family: Verdana, Tahoma; font-size: 0.8em; }
+ 
+    a { font-size: 0.8em; text-decoration:none; }
+    a:hover { font-size: 0.8em; text-decoration:underline; }
+    table { padding: 0px; width:100%; }
+    .infobox { background: #eef;  }
+    .infobox > td { padding: 5px; }
+    .infobox:hover { background: #ccf; }
+    .infobox_child { background: #fff; }
+    .infobox_child .infobox_title {
+       color: #777;
+    }
+    .infobox_child:hover { background: #eee; }
+    img { border: none; }
+    .subinfo { color:#777;font-size:0.7em; }
+    div.gosearch { color: #226; padding: 2px; margin:0px; text-align:center; background: #dde; border: #bbb 1px solid; }
+
+   </style>
+
+</head>
+
+<body>
+
+ <div class="gosearch"><form style="margin:0px;padding:0px;" method="get">
+                     <label for="searchterm">
+                      Search for <input type="text" size="19" id="searchterm" name="searchterm" value="">
+                     </label>
+                     
+                     <input name="searchtype" id="searchtype" type="hidden" value="a">
+                     <input name="searchdest" id="searchdest" type="hidden" value="a">
+                     <input name="func" id="func" type="hidden" value="">
+                     <input type="submit" value="&gt;">
+                  </form> </div></body></html>
